@@ -1,0 +1,11 @@
+// * https://sequelize.org/docs/v6/other-topics/migrations/#the-sequelizerc-file
+
+const glob = require('glob')
+const path = require('node:path');
+
+module.exports = {
+	'config': path.join(__dirname, './.config.js'),
+	'models-path': glob.sync(path.join(__dirname, './server/app/**/model.js')),
+	'seeders-path': path.join(__dirname, './db/seeders'),
+	'migrations-path': path.join(__dirname, './db/migrations')
+};
