@@ -30,7 +30,7 @@ npx sequelize-cli db:migrate:undo:all --to 20230201154707-create-streams
 npx sequelize-cli seed:generate --name create-random
 
 #### Running Seeds -
-npx sequelize-cli db:seed:allnpx sequelize-cli db:seed:all
+npx sequelize-cli db:seed:all
 
 #### Undoing Seeds -
 npx sequelize-cli db:seed:undo

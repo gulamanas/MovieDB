@@ -8,6 +8,11 @@ module.exports = {
       directorId: 1,
       createdAt: new Date(),
       updatedAt: new Date(),
+    }, {
+      movieId: 1,
+      directorId: 2,
+      createdAt: new Date(),
+      updatedAt: new Date(),
     }])
   },
 
